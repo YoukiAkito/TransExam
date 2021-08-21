@@ -32,7 +32,7 @@
  npm install
  npm run serve
  ```
-##生成静态文件
+## 生成静态文件
 
 同理，可通过`npm`进行编译
 
