@@ -24,6 +24,22 @@
 
 ### 注意：本程序需在专业人士指导下使用并解读，其结果才具有临床价值。  
 
+## 本地开发
+
+本项目使用了`vue3` + `element plus` + `vite`，可方便的进行本地开发
+
+ ```bash
+ npm install
+ npm run serve
+ ```
+##生成静态文件
+
+同理，可通过`npm`进行编译
+
+```bash
+npm run build
+```
+
 ## 相关资料与引用文献：
 
 >[1] Schiele, B. C.; Baker, A. B.; Hathaway, S. R. (1943). "The Minnesota multiphasic personality inventory"[J]. Journal-Lancet (63): 292–297. ISSN 0096-0233.<br>
