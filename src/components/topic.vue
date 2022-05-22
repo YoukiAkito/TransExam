@@ -3,7 +3,7 @@
         <template #header>
             <div class="card-header">
                 <span>请先阅读协议</span>
-                <el-button type="primary" round>我已知悉</el-button>
+                <el-button type="primary" round @click="handle(scope.row.url)">我已知悉</el-button>
             </div>
         </template>
         <div class="text item">
@@ -32,6 +32,9 @@ export default {
   data() {
     return {
     }
+  },
+  handle(url) {
+    window.location.href='/Users/chenmeng/Documents/GitHub/TransExam/src/components/test.vue'
   }
 }
 </script>

@@ -6,8 +6,9 @@
     "build": "vite build"
   },
   "dependencies": {
-    "element-plus": "latest",
-    "vue": "^3.0.5"
+    "element-plus": "^2.2.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.0.4",
