@@ -1,13 +1,11 @@
 <template>
-
-<el-row class="row-bg" justify="center">
-  <el-card  class="maincard">
+  <el-row class="row-bg" justify="center">
+    <el-card  class="maincard">
     
       <topic></topic>
       
-  </el-card>
-</el-row>
-
+    </el-card>
+  </el-row>
 </template>
 
 <script setup>

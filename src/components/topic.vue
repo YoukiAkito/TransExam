@@ -3,7 +3,9 @@
         <template #header>
             <div class="card-header">
                 <span>请先阅读协议</span>
-                <el-button type="primary" round @click="handle(scope.row.url)">我已知悉</el-button>
+                <!--<el-button type="primary" round ><a href="/Users/chenmeng/Documents/GitHub/TransExam/src/pages/main.js">我已知悉</a></el-button>-->
+                <!--<el-button type="primary" round>我已知悉</el-button>-->
+                <a href="../views/test.vue" class="el-button el-button--primary">我已知悉</a>
             </div>
         </template>
         <div class="text item">
@@ -32,9 +34,6 @@ export default {
   data() {
     return {
     }
-  },
-  handle(url) {
-    window.location.href='/Users/chenmeng/Documents/GitHub/TransExam/src/components/test.vue'
   }
 }
 </script>
@@ -56,5 +55,8 @@ export default {
 
   .box-card {
     max-width: 480px;
+  }
+  a {
+    TEXT-DECORATION:none
   }
 </style>

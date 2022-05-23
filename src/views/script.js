@@ -330,7 +330,3 @@ function doc_write_all_questions()
 	}
 	if(i>370) { document.write("<\/div>"); }
 }
-
-export {
-	script
-}
